@@ -25,8 +25,11 @@ O código é estruturado em vários módulos e funções:
 Para usar o código, siga estas etapas:
 1. Instale as dependências necessárias (`googlemaps`, `unidecode`, `google-search-results`, `google-generativeai`, `googletrans`).
 2. Execute o código em um ambiente Python.
-3. Forneça as estações de embarque e desembarque quando solicitado.
-4. Explore as informações e os recursos fornecidos para planejar sua viagem de metrô de forma ideal.
+3. Lembre-se de criar sua API KEY no Google Colab Secrets ou inserir diretamente no código.
+4. Disponibilizei na raiz do diretório a planilha que criei com algumas das estações do Metrô de São Paulo. (Dados foram retirados do site do Metrô `https://www.metro.sp.gov.br/`)
+5. Lembre-se também de fazer o upload deste arquivo para o Colab.
+6. Forneça as estações de embarque e desembarque quando solicitado.
+7. Explore as informações e os recursos fornecidos para planejar sua viagem de metrô de forma ideal.
 
 ## Ideia inicial
 Inicialmente, trabalhei na ideia de criar um MVP que ajudasse a organizar o tráfego de pessoas no Metrô de São Paulo, considerando a origem e destino do usuário e tentando usar dados em tempo real que indicassem o status de lotação da plataforma de embarque e que também pudesse sugerir um vagão, pensando em uma melhor experiência para o passageiro.
